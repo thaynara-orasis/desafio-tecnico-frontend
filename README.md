@@ -43,7 +43,7 @@ Você irá consumir um JSON de dados fornecido, seguir um layout no Figma e cria
 | Recurso | Link |
 |--------|------|
 | 🔗 Figma com layout | [link-aqui](#) *(substituir)* |
-| 📂 JSON com dados mockados | [https://github.com/thaynara-orasis/desafio-tecnico-frontend/tree/main/fixtures](#)|
+| 📂 JSON com dados mockados | [link-aqui]([#](https://github.com/thaynara-orasis/desafio-tecnico-frontend/tree/main/fixtures) |
 
 ---
 
