@@ -50,43 +50,17 @@ Você irá consumir um JSON de dados fornecido, seguir um layout no Figma e cria
 ## ⚙️ Instruções técnicas
 
 - Você pode usar o framework de sua preferência (React, Vue, etc.) — sugerimos React + Vite.
-- O layout deve respeitar o Figma (responsividade e estilos).
 - A atualização em tempo real pode ser feita com **polling**, **websocket simulado** ou **eventos artificiais** (ex: `setInterval` alterando o mock).
 - Use boas práticas de componentização, organização e escrita de código.
 - É **opcional**, mas bem-vindo:
-  - Testes unitários (Jest, Testing Library, etc.)
+  - Testes unitários
   - Animações ou microinterações
-  - Acessibilidade básica (alt, aria, contraste)
-
----
-
-## 📦 Entrega
-
-- Crie um repositório público com o nome `desafio-dashboard-metricas`.
-- Inclua um `README.md` com:
-  - Instruções de instalação e execução do projeto
-  - Suas decisões técnicas e arquitetura
-  - O que você faria diferente com mais tempo
-- Compartilhe o link do repositório com o time avaliador.
-
----
-
-## 🔍 O que será avaliado
-
-| Critério | Peso |
-|----------|------|
-| Fidelidade ao layout (Figma) | ⭐⭐⭐⭐ |
-| Lógica e organização do código | ⭐⭐⭐⭐ |
-| Clareza da apresentação e decisões | ⭐⭐⭐ |
-| Atualização dos dados em tempo real | ⭐⭐⭐⭐ |
-| Boas práticas (componentes, estado, etc.) | ⭐⭐⭐⭐ |
-| Testabilidade (se houver) | ⭐⭐ |
-| Responsividade e UX | ⭐⭐⭐ |
+  - Acessibilidade básica
 
 ---
 
 ## 💬 Dúvidas?
 
-Em caso de dúvidas, entre em contato com o responsável pela vaga ou envie uma issue neste repositório (se aplicável).
+Em caso de dúvidas, entre em contato com o responsável pela vaga.
 
 Boa sorte e bom código! 🚀
