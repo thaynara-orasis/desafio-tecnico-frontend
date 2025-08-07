@@ -4,7 +4,9 @@
 
 Este desafio tem como objetivo avaliar suas habilidades de desenvolvimento frontend implementando uma funcionalidade de visualização de métricas administrativas no dashboard principal da plataforma.
 
-Você irá consumir um JSON de dados fornecido, seguir um layout no Figma e criar um painel com **cards informativos** e atualização **em tempo real**.
+Você irá consumir um JSON de dados fornecido (esse JSON pode ser alterado), seguir um layout no Figma e criar um painel com **cards informativos**.
+
+Nesse desafio, teremos dois cenarios de teste para a funcionalidade, onde o Cenário 1 é obrigatório e o Cenário 2 é opcional.
 
 ---
 
@@ -18,7 +20,7 @@ Você irá consumir um JSON de dados fornecido, seguir um layout no Figma e cria
 
 ---
 
-## 🧪 Cenários esperados (BDD)
+## 🧪 Cenários esperados
 
 ### ✅ Cenário 1: Exibir métricas resumidas em cards
 
@@ -30,7 +32,7 @@ Você irá consumir um JSON de dados fornecido, seguir um layout no Figma e cria
   - Um card com a **quantidade de usuários inativos**
   - Um card com a **quantidade de administradores**
 
-### 🔄 Cenário 2: Atualização em tempo real
+### 🔄 (OPCIONAL) Cenário 2: Atualização em tempo real
 
 - Dado que estou no dashboard  
 - Quando há mudanças na base de usuários (criação, atualização de status, etc.)  
@@ -42,20 +44,24 @@ Você irá consumir um JSON de dados fornecido, seguir um layout no Figma e cria
 
 | Recurso | Link |
 |--------|------|
-| 🔗 Figma com layout | [link-aqui](#) *(substituir)* |
-| 📂 JSON com dados mockados | [link-aqui](https://github.com/thaynara-orasis/desafio-tecnico-frontend/tree/main/fixtures) |
+| 🔗 Exemplo de Dashboard (Pode escolher outro se desejar) | [link-aqui](https://www.figma.com/community/file/1152266255337829742/analytics-dashboard) |
+| 📂 JSON com dados mockados (Pode ser alterado)| [link-aqui](https://github.com/thaynara-orasis/desafio-tecnico-frontend/tree/main/fixtures) |
 
 ---
 
 ## ⚙️ Instruções técnicas
 
-- Você pode usar o framework de sua preferência (React, Vue, etc.) — sugerimos React + Vite.
-- A atualização em tempo real pode ser feita com **polling**, **websocket simulado** ou **eventos artificiais** (ex: `setInterval` alterando o mock).
+- Você deve utilizar preferencialmente o framework Next.js
+- Escrita de testes unitários
+- Use boas práticas de CI/CD
 - Use boas práticas de componentização, organização e escrita de código.
+- O repositório deve conter um README com descrição e instruções claras de execução da aplicação
 - É **opcional**, mas bem-vindo:
-  - Testes unitários
+  - Utilizar a biblioteca de icones mui/material
+  - Realizar deploy da aplicacao
   - Animações ou microinterações
   - Acessibilidade básica
+  - Realizar a atualização em tempo real com **polling**, **websocket simulado** ou **eventos artificiais** (ex: `setInterval` alterando o mock).
 
 ---
 
